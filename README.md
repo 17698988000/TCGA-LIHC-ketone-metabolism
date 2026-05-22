@@ -15,16 +15,21 @@ These analyses should not be interpreted as MASLD-HCC-specific proof, and no out
 TCGA-LIHC-ketone-metabolism/
 ├─ scripts/
 │  └─ TCGA_LIHC_ketone_analysis.R
+├─ output_pdf/
+│  ├─ Fig5H_CTNNB1_OXCT1_vector.pdf
+│  └─ SuppFig_MI_sensitivity_vector.pdf
+├─ .gitignore
+├─ LICENSE
+└─ README.md
+
+Local-only directories required for rerunning the analysis:
 ├─ xena/
 │  ├─ TCGA-LIHC.star_fpkm.tsv.gz
 │  ├─ TCGA-LIHC.survival.tsv.gz
 │  └─ TCGA-LIHC.clinical.tsv.gz
 ├─ GDCdata/
-├─ output/
-├─ output_pdf/
-│  ├─ Fig5H_CTNNB1_OXCT1_vector.pdf
-│  └─ SuppFig_MI_sensitivity_vector.pdf
-└─ README.md
+├─ data/
+└─ output/
 ```
 
 ## Input data
