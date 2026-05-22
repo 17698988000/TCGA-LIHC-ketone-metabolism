@@ -56,7 +56,9 @@ Somatic mutation data are accessed through `TCGAbiolinks` and cached locally und
 Open RStudio, set the working directory to the repository root, and run:
 
 ```r
-setwd("D:/HCC_FAO_project")
+# Replace this with your local clone of the repository
+setwd("path/to/TCGA-LIHC-ketone-metabolism")
+
 source("scripts/TCGA_LIHC_ketone_analysis.R", echo = TRUE)
 ```
 
