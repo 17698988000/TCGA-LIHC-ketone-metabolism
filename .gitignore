@@ -1,0 +1,22 @@
+# R / RStudio
+.Rhistory
+.RData
+.Ruserdata/
+.Rproj.user/
+
+# Large raw / cached data
+xena/*.tsv.gz
+GDCdata/
+data/
+
+# Intermediate outputs
+output/
+
+# Keep final vector figures for manuscript/review
+!output_pdf/
+!output_pdf/Fig5H_CTNNB1_OXCT1_vector.pdf
+!output_pdf/SuppFig_MI_sensitivity_vector.pdf
+
+# System files
+.DS_Store
+Thumbs.db
