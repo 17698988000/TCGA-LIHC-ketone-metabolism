@@ -17,7 +17,6 @@ TCGA-LIHC-ketone-metabolism/
 │  └─ TCGA_LIHC_ketone_analysis.R
 ├─ output_pdf/
 │  ├─ Fig5H_CTNNB1_OXCT1_vector.pdf
-│  └─ SuppFig_MI_sensitivity_vector.pdf
 ├─ .gitignore
 ├─ LICENSE
 └─ README.md
@@ -49,8 +48,6 @@ Somatic mutation data are accessed through `TCGAbiolinks` and cached locally und
 | Output file | Figure | Description |
 |---|---|---|
 | `output_pdf/Fig5H_CTNNB1_OXCT1_vector.pdf` | Fig. 5H | OXCT1 expression by CTNNB1 mutation status |
-| `output_pdf/SuppFig_MI_sensitivity_vector.pdf` | Supplementary Fig. S1 | complete-case vs multiple-imputation Cox sensitivity analysis |
-
 ## How to run
 
 Open RStudio, set the working directory to the repository root, and run:
